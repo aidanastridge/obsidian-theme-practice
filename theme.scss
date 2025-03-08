@@ -1,4 +1,8 @@
+
+
 body {
+
+// Headings
     --h1-size: 1.125em;
 	--h2-size: 1.05em;
 	--h3-size: 1em;
@@ -11,5 +15,17 @@ body {
 	--h4-weight: 500;
 	--h5-weight: 500;
 	--h6-weight: 400;
+    --h1-variant: normal;
+	--h2-variant: normal;
+	--h3-variant: normal;
+	--h4-variant: normal;
+	--h5-variant: small-caps;
+	--h6-variant: small-caps;
+	--h1-style: normal;
+	--h2-style: normal;
+	--h3-style: normal;
+	--h4-style: normal;
+	--h5-style: normal;
+	--h6-style: normal;
 }
 
