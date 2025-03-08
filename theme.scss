@@ -1,8 +1,27 @@
-
-
 body {
 
+// Color
+
+--coral-pink: rgba(255, 111, 97, 1);
+--dark-coral-pink: rgb(186, 80, 70);
+--light-coral-pink: rgba(255, 110, 97, 0.716);
+--raisin-black: rgba(36, 36, 36, 1);
+--dark-raisin-black: rgba(36, 36, 36, 1);
+--light-raisin-black: rgba(36, 36, 36, 1);
+--cambridge-blue: rgba(129, 162, 190, 1);
+--dark-cambridge-blue: rgba(129, 162, 190, 1);
+--light-cambridge-blue: rgba(129, 162, 190, 1);
+--jungle-green: rgba(39, 174, 96, 1);
+--dark-jungle-green: rgba(39, 174, 96, 1);
+--light-jungle-green: rgba(39, 174, 96, 1);
+--khaki: rgba(240, 234, 214, 1);
+--dark-khaki: rgb(219, 215, 201);
+--light-khaki: rgb(244, 241, 230);
+--white:rgba(255, 255, 255, 1);
+
+
 // Headings
+
     --h1-size: 1.125em;
 	--h2-size: 1.05em;
 	--h3-size: 1em;
@@ -27,5 +46,16 @@ body {
 	--h4-style: normal;
 	--h5-style: normal;
 	--h6-style: normal;
+
+    //
 }
 
+.theme-light {
+    --background-primary: var(--light-khaki);
+    --background-primary-alt: var(--khaki);
+    --background-secondary: var(--khaki);
+    --background-secondary-alt:var(--dark-khaki);
+    --background-modifier-hover: var(--light-khaki)
+
+
+}
