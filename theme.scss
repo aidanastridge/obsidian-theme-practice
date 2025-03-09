@@ -4,13 +4,13 @@ body {
 
 --coral-pink: rgba(255, 111, 97, 1);
 --dark-coral-pink: rgb(186, 80, 70);
---light-coral-pink: rgba(255, 110, 97, 0.716);
+--light-coral-pink: rgba(255, 110, 97, 0.61);
 --raisin-black: rgba(36, 36, 36, 1);
 --dark-raisin-black: rgba(36, 36, 36, 1);
 --light-raisin-black: rgba(36, 36, 36, 1);
---cambridge-blue: rgba(129, 162, 190, 1);
---dark-cambridge-blue: rgba(129, 162, 190, 1);
---light-cambridge-blue: rgba(129, 162, 190, 1);
+--cambridge-blue: rgb(146, 209, 212);
+--dark-cambridge-blue: rgb(136, 194, 197);
+--light-cambridge-blue: rgb(154, 223, 227);
 --jungle-green: rgba(39, 174, 96, 1);
 --dark-jungle-green: rgba(39, 174, 96, 1);
 --light-jungle-green: rgba(39, 174, 96, 1);
@@ -51,11 +51,17 @@ body {
 }
 
 .theme-light {
-    --background-primary: var(--light-khaki);
-    --background-primary-alt: var(--khaki);
-    --background-secondary: var(--khaki);
-    --background-secondary-alt:var(--dark-khaki);
-    --background-modifier-hover: var(--light-khaki)
+    --accent-hue: 250;
+    --accent-saturation: 0%;
+    --accent-lightness: 0%;
 
+
+    --background-primary: var(--light-cambridge-blue);
+    --background-primary-alt: var(--cambridge-blue);
+    --background-secondary: var(--cambridge-blue);
+    --background-secondary-alt:var(--dark-cambridge-blue);
+    --background-modifier-hover: var(--light-cambridge-blue);
+    --background-modifier-active-hover: var(--light-cambridge-blue);
+    --background-modifier-border: var(--light-cambridge-blue);
 
 }
