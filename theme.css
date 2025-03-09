@@ -1,13 +1,24 @@
 body {
-  --coral-pink: rgba(255, 111, 97, 1);
+  --button-radius: 0.25em;
+  --checkbox-radius:0.25em;
+  --checkbox-size: 1em;
+  --checkbox-marker-color:var(--coral-pink)
+  --checkbox-color:var(--coral-pink)
+  --checkbox-color-hover:var(--coral-pink)
+  --checkbox-border-color:var(--dark-coral-pink);
+  --checkbox-border-color-hover:var(--light-coral-pink);
+  --checklist-done-decoration:var(--coral-pink);
+  --checklist-done-color:var(--coral-pink);
+  --checkbox-margin-inline-start:var(--coral-pink);
+  --coral-pink: rgb(255, 63, 114);
   --dark-coral-pink: rgb(186, 80, 70);
-  --light-coral-pink: rgba(255, 110, 97, 0.61);
+  --light-coral-pink: rgb(252, 146, 185);
   --raisin-black: rgba(36, 36, 36, 1);
   --dark-raisin-black: rgba(36, 36, 36, 1);
   --light-raisin-black: rgba(36, 36, 36, 1);
-  --cambridge-blue: rgb(146, 209, 212);
-  --dark-cambridge-blue: rgb(136, 194, 197);
-  --light-cambridge-blue: rgb(154, 223, 227);
+  --cambridge-blue: rgb(127, 230, 238);
+  --dark-cambridge-blue: rgb(64, 221, 229);
+  --light-cambridge-blue: rgb(123, 238, 245);
   --jungle-green: rgba(39, 174, 96, 1);
   --dark-jungle-green: rgba(39, 174, 96, 1);
   --light-jungle-green: rgba(39, 174, 96, 1);
@@ -49,7 +60,7 @@ body {
   --background-primary-alt: var(--cambridge-blue);
   --background-secondary: var(--cambridge-blue);
   --background-secondary-alt:var(--dark-cambridge-blue);
-  --background-modifier-hover: var(--light-cambridge-blue);
+  --background-modifier-hover: var(--light-coral-pink);
   --background-modifier-active-hover: var(--light-cambridge-blue);
   --background-modifier-border: var(--light-cambridge-blue);
 }/*# sourceMappingURL=theme.css.map */
